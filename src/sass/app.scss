@@ -1,0 +1,19 @@
+@import "./variables";
+
+body {
+  background: $my-color;
+}
+.logo-webpack {
+  height: 400px;
+  width: 400px;
+  background: url("./images/webpack-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 40px auto;
+}
+.text-white {
+  color: $white;
+}
+.text-center {
+  text-align: center;
+}
